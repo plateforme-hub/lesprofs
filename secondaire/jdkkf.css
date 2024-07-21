@@ -1,0 +1,142 @@
+/* Styles for header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: -5;
+}
+
+/* Styles for search input and button */
+#searchInput {
+    padding: 8px;
+    margin-right: 10px;
+}
+/*#buttoninput{
+    display: inline-block;
+    padding: 10px 25px;
+    margin-top: 5;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+#buttoninput :hover{
+    background-color: #45a049;
+}
+
+/* Styles for search results */
+#searchResults {
+    margin-top: 20px;
+}
+.profile-frame {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.profile-general{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 60px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profile-picture {
+    flex: 0 0 auto; /* Do not grow or shrink */
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-details {
+    flex: 1; /* Grow to fill remaining space */
+}
+
+.profile-details h2 {
+    margin-top: 0;
+}
+
+.profile-details p {
+    margin: 5px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-frame {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+    header{
+        font-size: 10px;
+    }
+    .profile-details {
+        margin-top: 20px; /* Add space between profile picture and details */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .profile-general {
+        font-size: 20px; /* Decrease font size for smaller screens */
+    }
+
+    .profile-picture img {
+        width: 80px; /* Decrease image size for smaller screens */
+        height: 80px;
+    }
+}
+
+.rounded-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #333;
+    text-align: center;
+    width: 200px;
+    color: #ffffff;
+    position: relative;
+    top: 50;
+    left: 30;
+    padding-top: 20px;
+    border-radius: 30px; /* Adjust the value to change the roundness */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+  }
+  .rounded-button:hover {
+    background-color: #2980b9; /* Change the color on hover */
+  }
+  #b11, #b12, #b13{
+    position: relative;
+    top: 100;
+  }
+  #b6, #b7, #b8, #b9, #b10{
+    position: relative;
+    top: 80;
+  }
+  #b1, #b2, #b3, #b4, #b5{
+    position: relative;
+    top: 60;
+  }
+.buttons{
+    position: relative;
+    top: -20;
+    left: 0;
+}
+h2{
+    position: relative;
+    top: 0;
+}
+
